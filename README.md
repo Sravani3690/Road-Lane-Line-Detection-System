@@ -28,6 +28,7 @@ This project implements a Road Lane Line Detection System designed to enhance ro
 ## Usage
 ## Single Image Processing
 Here's an example of how to process a single image:
+
 import cv2
 import matplotlib.image as mpimg
 Load image
@@ -35,11 +36,13 @@ image = mpimg.imread('image.jpg')
 Process image
 processed_image = process_image(image)
 # Display processed image
+
 cv2.imshow('Processed Image', processed_image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ## Video Processing
 Here's an example of how to process a video:
+
 video_path = 'video.mp4'
 process_video(video_path)
 
@@ -72,4 +75,4 @@ process_video(video_path): Processes each frame of a video to detect and draw la
 
 ## Example output
 ![Screenshot (102)](https://github.com/Sravani3690/Road-Lane-Line-Detection-System/assets/174925172/1d1a5665-096a-4a0a-b478-f8aaa43fdffd)
-![Screenshot (103)](https://github.com/Sravani3690/Road-Lane-Line-Detection-System/assets/174925172/f124664f-b550-499f-a0ca-4df7e98f7b5e)
+
