@@ -35,7 +35,7 @@ Load image
 image = mpimg.imread('image.jpg')
 Process image
 processed_image = process_image(image)
-# Display processed image
+## Display processed image
 
 cv2.imshow('Processed Image', processed_image)
 cv2.waitKey(0)
