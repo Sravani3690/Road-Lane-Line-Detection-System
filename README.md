@@ -10,14 +10,14 @@ This project implements a Road Lane Line Detection System designed to enhance ro
 - Lane Line Smoothing: Averages detected line segments to create smooth lane lines.
 - Robust to Noise: Includes Gaussian blur to reduce image noise.
 - Easy Configuration: Adjustable parameters to fine-tune detection accuracy.
-- 
+
 ## Requirements
 - Python 3.x
 - OpenCV (`cv2`)
 - NumPy
 - Matplotlib (for image handling)
 - MoviePy (for video handling)
-- 
+  
 ## Installation
 1. Clone the repository:
     git clone https://github.com/your_username/road-lane-detection.git
@@ -30,9 +30,9 @@ This project implements a Road Lane Line Detection System designed to enhance ro
 Here's an example of how to process a single image:
 import cv2
 import matplotlib.image as mpimg
-# Load image
+Load image
 image = mpimg.imread('image.jpg')
-# Process image
+Process image
 processed_image = process_image(image)
 # Display processed image
 cv2.imshow('Processed Image', processed_image)
